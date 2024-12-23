@@ -11,13 +11,16 @@
   "dependencies": {
     "@/components/ui/card": "*", // Replace with your actual package name
     "@/components/ui/switch": "*", // Replace with your actual package name
-    "lucide-react": "^0.103.0",
+    "lucide-react": "^0.261.0",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest"
   },
   "devDependencies": {
+    "autoprefixer": "latest",
     "eslint": "latest",
-    "eslint-config-next": "latest"
+    "eslint-config-next": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest"
   }
 }
