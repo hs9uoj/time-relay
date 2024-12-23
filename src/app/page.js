@@ -1,5 +1,4 @@
-# src/app/page.js
-```javascript
+// src/app/page.js
 import RelayControl from '@/components/RelayControl';
 
 export default function Home() {
@@ -9,22 +8,3 @@ export default function Home() {
     </main>
   );
 }
-```
-
-# src/app/layout.js
-```javascript
-import './globals.css'
-
-export const metadata = {
-  title: 'Relay Control',
-  description: 'ESP32 Timer Relay Controller',
-}
-
-export default function RootLayout({ children }) {
-  return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
-  )
-}
-```
