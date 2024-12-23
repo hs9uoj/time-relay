@@ -1,0 +1,23 @@
+{
+  "name": "my-relay-control",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@/components/ui/card": "*", // Replace with your actual package name
+    "@/components/ui/switch": "*", // Replace with your actual package name
+    "lucide-react": "^0.103.0",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "eslint": "latest",
+    "eslint-config-next": "latest"
+  }
+}
